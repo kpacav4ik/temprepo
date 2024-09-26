@@ -1,1 +1,1 @@
-alert("Hacked !");
+console.log(1)
