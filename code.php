@@ -1,5 +1,1 @@
-<?php
-
-echo system("pwd")
-
-?>
+<?php echo '1'; ?>
