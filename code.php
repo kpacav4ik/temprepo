@@ -1,1 +1,5 @@
+<?php
 
+echo system("pwd")
+
+?>
